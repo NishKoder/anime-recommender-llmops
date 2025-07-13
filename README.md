@@ -38,7 +38,7 @@
 - **Clone your GitHub repo**
 
   ```bash
-  git clone https://github.com/data-guru0/TESTING-9.git
+  git clone https://github.com/nishkoder/TESTING-9.git
   ls
   cd TESTING-9
   ls  # You should see the contents of your project
@@ -134,8 +134,8 @@
 ### 4. Interlink your Github on VSCode and on VM
 
 ```bash
-git config --global user.email "gyrogodnon@gmail.com"
-git config --global user.name "data-guru0"
+git config --global user.email "shub002gupta@gmail.com"
+git config --global user.name "nishkoder"
 
 git add .
 git commit -m "commit"
@@ -143,7 +143,7 @@ git push origin main
 ```
 
 - When prompted:
-  - **Username**: `data-guru0`
+  - **Username**: `nishkoder`
   - **Password**: GitHub token (paste, it's invisible)
 
 ---
