@@ -18,8 +18,8 @@ class AnimeRecommenderPipeline:
             self.vector_store_retriever = self.vector_store_builder.load_vector_store().as_retriever()
             self.recommender = AnimeRecommender(
                 retriever=self.vector_store_retriever,
-                api_key=GROQ_API_KEY,
-                model_name=GROQ_MODEL_ID
+                api_key=GROQ_API_KEY, # type: ignore
+                model_name=GROQ_MODEL_ID # type: ignore
             )
             logger.info("AnimeRecommenderPipeline initialized successfully.")
         except Exception as e:
